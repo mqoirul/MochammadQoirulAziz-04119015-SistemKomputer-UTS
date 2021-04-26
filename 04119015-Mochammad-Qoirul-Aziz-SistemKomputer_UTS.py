@@ -1,0 +1,10 @@
+print("Nama  : Mochammad Qoirul Aziz ")
+print("NIM   : 04119015 ")
+print("Prodi : Sistem Komputer ")
+print("------------------------------ ")
+print("masukkan kalimat = ")
+inkalimat = input()
+print(inkalimat.split())
+for kata in inkalimat.split():
+  print(kata)
+print("Terdapat {} kata".format(len(inkalimat.split())))
